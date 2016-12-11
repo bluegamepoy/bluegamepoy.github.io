@@ -243,3 +243,38 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+
+
+ul {
+
+	
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+
+li a {
+    
+	display: block;
+	color: #3884ff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+    background-color: #333
+}
